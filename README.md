@@ -30,8 +30,9 @@ This project explores genome-wide association data from the **GWAS Catalog** to 
 6. **Odds Ratio Filtering** – Identified top genes with the strongest effect sizes.
 7. **Data Visualization** – Plotted lollipop charts, stacked bars, and OR-based bar plots using `ggplot2`.
 
-## 📌 NOTE: `GWAS_Analysis.ipynb` is the original step-by-step analysis of the GWAS Catalog dataset with all the comments and outputs, ideal for learning, debugging, and understanding the full flow interactively. And `GWAS_Analysis.py` is  the converted and cleaned Python script version of the notebook. It contains the complete GWAS data analysis pipeline for reproducible command-line execution.
+    📌 NOTE: `GWAS_Analysis.ipynb` is the original step-by-step analysis of the GWAS Catalog dataset with all the comments and outputs, ideal for learning, debugging, and understanding the full flow interactively. And `GWAS_Analysis.py` is  the converted and cleaned Python script version of the notebook. It contains the complete GWAS data analysis pipeline for reproducible command-line execution.
 Best suited for automation, integration into larger workflows, or running as a script.
+
 ---
 
 ## 📊 Visualizations
