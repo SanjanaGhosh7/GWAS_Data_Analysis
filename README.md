@@ -63,7 +63,7 @@ Plots are saved in the `Outputs/plots/` folder.
 
 ---
 
-## 📬 Feel free to Contact or Collaborate
+## 📬 Feel free to Connect or Collaborate
 
 **Sanjana Ghosh**  
 [LinkedIn](www.linkedin.com/in/sanjana-ghosh-2a5b7c11d) | sanjanaghosh150@gmail.com
