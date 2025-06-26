@@ -1,7 +1,7 @@
 library(ggplot2)
 library(readr)
 
-#Lollipop Plot for top 10 gene frequency
+#Lollipop Plot for top 10 genes with highest frequency across traits
 
 data <- read_csv("Top_10_genes.csv", show_col_types = FALSE)
 
@@ -17,7 +17,7 @@ ggplot(data, aes(x = reorder(Gene, Count), y = Count)) +
 ggsave("gene_frequency_plot.pdf", width = 10, height = 8)
 
 
-#Stacked bar plot for Top 10 genes  
+#Stacked bar plot for Top 10 genes' ChrID and Mutations  
 
 library(dplyr)
 
@@ -49,7 +49,7 @@ ggsave("ChrID_and_mutations_plot.pdf", width = 8, height = 6)
 
 
 
-#Log scale bar plot for Odds ratio
+#Log scale bar plot for top 10 genes with highest Odds ratio
 
 df <- read_csv("top_10_OR.csv", show_col_types = FALSE)
 
