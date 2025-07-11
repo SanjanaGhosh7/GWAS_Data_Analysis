@@ -10,10 +10,6 @@ df = pd.read_csv("gwas_catalog_v1.0-associations_e114_r2025-06-10.tsv", sep = "\
 print("Total no. of rows and columns are: ", df.shape)
 df.head()
 
-#extracting first 25000 rows from the dataset
-new_df = df.head(25000)
-new_df.to_csv("new.tsv", sep="\t", index=False)
-
 
 #Finding the unique genes in new.tsv
 unique_gene = df['MAPPED_GENE'].dropna().unique()
