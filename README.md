@@ -25,13 +25,12 @@ Best suited for automation, integration into larger workflows, or running as a s
 
 ## 🔍 Analysis Performed
 
-1. **Subset Creation** – First 25,000 rows extracted from the full dataset.
-2. **Gene Frequency Analysis** – Identified top 10 genes with the highest association counts.
-3. **Trait Diversity** – Counted unique traits and mapped gene–trait relationships.
-4. **SNP & Chromosome Mapping** – Extracted top genes’ SNP-Risk Alleles and chromosome IDs.
-5. **Population Insight** – Identified the most common population associated with each top gene.
-6. **Odds Ratio Filtering** – Identified top genes with the strongest effect sizes.
-7. **Data Visualization** – Plotted lollipop charts, stacked bars, and OR-based bar plots using `ggplot2`.
+1. **Gene Frequency Analysis** – Identified top 10 genes with the highest association counts.
+2. **Trait Diversity** – Counted unique traits and mapped gene–trait relationships.
+3. **SNP & Chromosome Mapping** – Extracted top genes’ SNP-Risk Alleles and chromosome IDs.
+4. **Population Insight** – Identified the most common population associated with each top gene.
+5. **Odds Ratio Filtering** – Identified top genes with the strongest effect sizes.
+6. **Data Visualization** – Plotted lollipop charts, stacked bars, and OR-based bar plots using `ggplot2`.
    
 ---
 
